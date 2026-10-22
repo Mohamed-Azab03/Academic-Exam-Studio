@@ -1,0 +1,36 @@
+{
+  "title": "Research Methodology — Practice Exam",
+  "code": "CHANGE-EXAM-CODE",
+  "opensAt": "2026-11-01T10:00:00Z",
+  "closesAt": "2026-11-01T11:00:00Z",
+  "durationMinutes": 30,
+  "enabled": false,
+  "students": [
+    "STUDENT001",
+    "STUDENT002"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which is a primary research method?",
+      "options": [
+        "Conducting an interview",
+        "Reading a review article",
+        "Summarizing a textbook",
+        "Reading a research report"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q2",
+      "text": "What is a research objective?",
+      "options": [
+        "An unrelated assumption",
+        "A specific aim of the research",
+        "A publication venue",
+        "A random sample"
+      ],
+      "correct": 1
+    }
+  ]
+}
