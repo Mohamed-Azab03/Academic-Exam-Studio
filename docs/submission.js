@@ -51,7 +51,7 @@
     fetch(ENDPOINT, {method:"POST",mode:"no-cors",body})
       .then(() => {
         localStorage.setItem(stateKey, new Date().toISOString());
-        notice.textContent = "Submission request sent. Your instructor must verify it appears in the results sheet.";
+        notice.textContent = "Submission request sent.";
       })
       .catch(() => {
         notice.textContent = "Submission could not be sent. Keep this page open and contact your instructor.";
