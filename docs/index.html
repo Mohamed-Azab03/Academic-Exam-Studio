@@ -19,7 +19,7 @@
 </section>
 <section class="box hidden" id="done"><span class="pill">Submission complete</span><h1>Exam finished</h1><p id="summary"></p><h2 id="score"></h2><button id="download">Download my result (.json)</button><p class="muted">This file is saved to your device, not uploaded to GitHub. Send it to your instructor as requested.</p></section>
 </main><footer>Academic Exam Studio · GitHub Pages demo · Not suitable for high-stakes exams</footer>
-<script src="config.js"></script><script>
+<script src="config.js"></script><script src="submission.js"></script><script>
 (()=>{"use strict"; const C=window.EXAM_CONFIG,$=id=>document.getElementById(id);
 let sid="",answers={},i=0,deadline=0,ticker=null,result=null;
 $("title").textContent=C.title;$("questionCount").textContent=C.questions.length;$("timeLimit").textContent=C.durationMinutes+" min";
